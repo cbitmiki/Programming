@@ -9,6 +9,8 @@
 # You don't need to understand this helper code,
 # but you will have to know how to use the functions
 # (so be sure to read the docstrings!)
+
+# Added a comment here to test if git is fully working :)
 import random
 import string
 

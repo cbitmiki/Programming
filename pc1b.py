@@ -24,15 +24,3 @@ while current_savings < portion_down_payment:
 
 
 print("Number of months: ", num_of_months)
-
-
-
------------------------------------------------------------------------------
-
-while current_savings < portion_down_payment:
-    current_savings = (current_savings + portion_saved) + (current_savings * monthly_interest)
-    num_of_months = num_of_months + 1
-    if num_of_months % 6 == 0:
-        annual_salary = annual_salary + (annual_salary * semi_annual_raise)
-        monthly_salary = annual_salary / 12
-        portion_saved = guess_portion_saved_percentage * monthly_salary
